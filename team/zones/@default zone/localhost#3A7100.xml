@@ -1,0 +1,69 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="938729e5-f798-4d3a-88e3-85238988fe39" version="2024.2.0;build=20240606-37">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="kubernetes.docker.internal">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:1d0c:74dd:dfe2:36be%eth2">
+            <ip value="fe80:0:0:0:1d0c:74dd:dfe2:36be%eth2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #2"
+        enabled="false" isLoopBack="false" name="eth26">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="sandeep-pc">
+            <ip value="172.30.96.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:79da:a079:9c99:acb9%eth26">
+            <ip value="fe80:0:0:0:79da:a079:9c99:acb9%eth26"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="MediaTek MT7921 Wi-Fi 6 802.11ax PCIe Adapter"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="host.docker.internal">
+            <ip value="192.168.1.126"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2603:6080:4200:a4f6:0:0:0:13c0">
+            <ip value="2603:6080:4200:a4f6:0:0:0:13c0"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2603:6080:4200:a4f6:1263:f053:6718:32c4">
+            <ip value="2603:6080:4200:a4f6:1263:f053:6718:32c4"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2603:6080:4200:a4f6:e557:8dc0:adf:9f94">
+            <ip value="2603:6080:4200:a4f6:e557:8dc0:adf:9f94"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:e6a1:8725:46b1:760a%wlan2">
+            <ip value="fe80:0:0:0:e6a1:8725:46b1:760a%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
+        enabled="false" isLoopBack="false" name="eth9">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="sandeep-pc.mshome.net">
+            <ip value="172.25.208.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:1ca2:1f9:780e:bddf%eth9">
+            <ip value="fe80:0:0:0:1ca2:1f9:780e:bddf%eth9"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
